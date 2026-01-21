@@ -2,7 +2,6 @@
 title: About Us
 ---
 
-
 # **Welcome to the Data Knowledge Hub!**
 
 ## **Cultivating Research Integrity and Reproducibility**
@@ -32,4 +31,4 @@ We recommend and support digital solutions tailored to the TUM environment:
 * **Network & Events:** Join the **NFDI Round Table** or **Industry Expert Talks** to share experiences and tackle data challenges with fellow researchers.  
 * **Domain-Specific Support:** Tailored methodologies for specialised fields, particularly in data-intensive areas like Bioinformatics and Engineering.
 
-**Get Started:** Explore our [General Knowledge](../02-General-Knowledge/data-types.md) or dive into [Bioinformatics Use Cases](../04-Use-Cases/Bioinformatics-Biology/glossary.md).
+**Get Started:** Explore our [General Knowledge](../02-General-Knowledge/data-types.md) or dive into [Bioinformatics Specific Knowledge](../03-Domain-specific-Knowledge/01-Bioinformatics/bio-data-types.md).
