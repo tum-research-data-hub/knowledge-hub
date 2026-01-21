@@ -1,0 +1,8 @@
+{
+  "label": "About the Knowledge Hub",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Introduction to the TUM Data Knowledge Hub, our mission, and how to get in touch with our team."
+  }
+}

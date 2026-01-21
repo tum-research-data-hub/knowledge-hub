@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'TUM Research Data Hub',
-  tagline: 'The Knowledge Hub',
+  title: 'TUM Data Knowledge Hub',
+  tagline: 'Cultivating Research Integrity and Reproducible Science',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -20,7 +20,7 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: '[https://tum-research-data-hub.github.io](https://tum-research-data-hub.github.io)',
+  url: 'https://tum-research-data-hub.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/knowledge-hub/',
@@ -29,53 +29,22 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'tum-research-data-hub', // Usually your GitHub org/user name.
   projectName: 'knowledge-hub', // Usually your repo name.
-  deploymentBranch: 'gh-pages', // Add this line if it is missing
-  trailingSlash: false, // Add this line if it is missing
+  deploymentBranch: 'gh-pages', // Explicitly tells Docusaurus which branch to push the build to
+  trailingSlash: false,  // Helps with URL consistency on GitHub Pages
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'throw', // Using 'throw' ensures that you never accidentally publish a broken website to your users
+  onBrokenMarkdownLinks: 'warn', // This specifically checks internal links inside your Markdown files
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
+
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
   },
 
-  presets: [
-    [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
-        docs: {
-          sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
-        theme: {
-          customCss: './src/css/custom.css',
-        },
-      }),
-    ],
-  ],
-
+// This is the section to add a local search functionality 
 themes: [
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
@@ -84,89 +53,96 @@ themes: [
         language: ["en"],
         highlightSearchTermsOnTargetPage: true,
         explicitSearchResultPath: true,
+        indexDocs: true,
+        indexBlog: false,
+        docsRouteBasePath: "/",
       },
     ],
   ],
 
+  presets: [
+    [
+      'classic',
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
+        docs: {
+          sidebarPath: './sidebars.js',
+          routeBasePath: '/', 
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/tum-research-data-hub/knowledge-hub/tree/main/',
+        },
+        blog: false,
+        theme: {
+          customCss: './src/css/custom.css',
+        },
+      }),
+    ],
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/tum-rdhub-social-card.webp',
       colorMode: {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'Data Knowledge Hub',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'TUM Logo',
+          src: 'img/tum-logo.svg',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'mySidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Knowledge Hub',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/tum-research-data-hub/knowledge-hub',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: 'mailto:researchdata@tum.de',
+            label: 'Contact',
             position: 'right',
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
-            title: 'Docs',
+            title: 'Tools',
             items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
+              { label: 'TUM DataTagger', href: 'https://www.ub.tum.de/en/datatagger' },
+              { label: 'mediaTUM', href: 'https://mediatum.ub.tum.de/' },
+              { label: 'eLabFTW', href: 'https://www.ub.tum.de/en/eln' },
             ],
           },
           {
-            title: 'Community',
+            title: 'Support',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
+              { label: 'MDSI', href: 'https://www.mdsi.tum.de/' },
+              { label: 'TUM University Library', href: 'https://www.ub.tum.de/' },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Technical University of Munich. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+    tableOfContents: {
+        minHeadingLevel: 2,
+        maxHeadingLevel: 4,
+      }
     }),
 };
 
