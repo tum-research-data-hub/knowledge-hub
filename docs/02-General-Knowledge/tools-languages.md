@@ -71,12 +71,12 @@ Structured Query Language (SQL) is the standard for managing and querying data h
 
 | Name | Usage | Type | Description | Link (TUM Internal) | Link (Doc) |
 | :---- | :---- | :---- | :---- | :---- | :---- |
-| **R** | Statistics / Viz | Open Source | Statistical computing and graphics. | [TUM R-Kurs](https://www.google.com/search?q=https://www.groups.tum.de/stat/lehre/) | [R Project](https://www.r-project.org/) |
+| **R** | Statistics / Viz | Open Source | Statistical computing and graphics. | [TUM R-Kurs](https://www.math.cit.tum.de/en/math/department/statistical-consulting/courses/) | [R Project](https://www.r-project.org/) |
 | **Python** | AI / Data Sci | Open Source | General purpose / Data Engineering. | [LRZ Python Docs](https://www.google.com/search?q=https://doku.lrz.de/python-10745934.html) | [Python.org](https://www.python.org/) |
 | **C / C++** | HPC / Performance | Open Source | High-speed compiled languages. | [LRZ HPC Intro](https://www.google.com/search?q=https://doku.lrz.de/hpc-10745941.html) | [isocpp.org](https://isocpp.org/) |
-| **JavaScript** | Web / Interactivity | Open Source | Interactive web visualisations. | [TUM Online](https://campus.tum.de/) | [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
-| **MATLAB** | Computation | Proprietary | Numerical computing and engineering. | [TUM Software](https://www.it.tum.de/it/software/) | [MathWorks](https://www.mathworks.com/) |
+| **JavaScript** | Web / Interactivity | Open Source | Interactive web visualisations. | [TUM Online](https://campus.tum.de/tumonline/wbModHb.wbShowMHBReadOnly?pKnotenNr=1115417) | [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
+| **MATLAB** | Computation | Proprietary | Numerical computing and engineering. | [TUM Software](https://wiki.ito.cit.tum.de/bin/view/CIT/ITO/Docs/Guides/Helpdesk/MatlabInstallieren/?language=de) | [MathWorks](https://www.mathworks.com/) |
 | **SPSS** | Social Science | Proprietary | Advanced statistical analysis. | [BayernCollab](https://www.google.com/search?q=https://bayerncollab.uni-wuerzburg.de/) | [IBM SPSS](https://www.ibm.com/spss) |
-| **Power BI** | BI / Dashboards | Proprietary | Interactive reports and data refresh. | [TUM IT Services](https://www.google.com/search?q=https://www.it.tum.de/it/m365/) | [MS Learn](https://learn.microsoft.com/power-bi/) |
+| **Power BI** | BI / Dashboards | Proprietary | Interactive reports and data refresh. | [TUM IT Services](https://www.digitalisierung.tum.de/m365-und-copilot/) | [MS Learn](https://learn.microsoft.com/power-bi/) |
 
-**Note:** For a full list of software available under campus licences, visit the [TUM Software Portal](https://www.it.tum.de/it/software/).
+**Note:** For a full list of software available under campus licences, visit the [TUM Software Portal](https://collab.dvb.bayern/spaces/viewspace.action?key=TUMsoftware).

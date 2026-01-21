@@ -1,9 +1,9 @@
 {
-  "label": "Domain-specific Knowledge",
+  "label": "Bioinformatics",
   "position": 1,
   "link": {
     "type": "generated-index",
-    "slug": "/domain-knowledge",
+    "slug": "/domain-knowledge/bioinformatics",
     "description": " "
   }
 }

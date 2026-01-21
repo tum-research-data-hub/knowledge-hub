@@ -3,6 +3,7 @@
   "position": 1,
   "link": {
     "type": "generated-index",
+    "slug": "/general-knowledge",
     "description": "The general knowledge, common tools and best practices on storing, managing, processing, interrogating and analysing data."
   }
 }

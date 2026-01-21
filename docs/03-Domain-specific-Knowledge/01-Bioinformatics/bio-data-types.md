@@ -1,6 +1,6 @@
 ---
  title: Data Types 
- sidebar\_label: Data Types & Formats
+ slug: /domain-knowledge/bioinformatics/bio-data-types
 ---
 
 # **Common Bioinformatics Data Types and Formats**

@@ -1,5 +1,6 @@
 ---
 title: Data Types
+slug: /general-knowledge/data-types
 ---
 
 # **Data Types**
@@ -83,6 +84,6 @@ Visual representations (e.g., microscopy, satellite imagery) requiring specific 
 
 Highly specialised sequences and variants used in bioinformatics.  
   
-   🧬 **See Detail:** [Domain-specific Data Types (Bioinformatics)](https://www.google.com/search?q=../03-Domain-Specific-Knowledge/Bioinformatics-Biology/data-types.md)
+   🧬 **See Detail:** [Domain-specific Data Types (Bioinformatics)](/domain-knowledge/bioinformatics/bio-data-types)
 
 **Note:** This is not an exhaustive list. Always consult your Data Steward or data expert in your area to ensure your data is classified correctly for long-term storage and analysis.

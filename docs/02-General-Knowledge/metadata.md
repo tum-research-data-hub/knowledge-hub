@@ -33,7 +33,7 @@ To make metadata "Interoperable," researchers use **Schemas**—standardised set
 
 * **Dublin Core:** A basic, universal set of 15 elements (Title, Creator, Date, etc.) used by repositories like **mediaTUM**.  
 * **Domain-Specific Standards:** Fields like Biology or Physics often have complex requirements (e.g., the "Minimum Information" standards in genomics).  
-  * 🧬 **See Detail:** [Metadata & Ontologies (Bioinformatics)](https://www.google.com/search?q=../03-Domain-Specific-Knowledge/Bioinformatics-Biology/metadata-ontologies.md)
+  * 🧬 **See Detail:** [Metadata & Ontologies (Bioinformatics)](/domain-knowledge/bioinformatics/bio-metadata-ontologies)
 
 ## 
 
@@ -43,7 +43,7 @@ Capturing metadata manually can be time-consuming. TUM provides and recommends s
 
 * **Start Early:** Don't wait until the end of your project. Document your data as you create it.  
 * **Use README files:** For simple projects, a well-structured README.txt file in your root directory acts as a manual for your metadata.  
-* [**eLabFTW**](https://www.google.com/search?q=https://www.it.tum.de/it/elabftw/)**:** The official Electronic Lab Notebook (ELN) for TUM researchers. It allows you to document experiments in a structured way, automatically capturing timestamps and linking datasets to specific experimental parameters.  
-* [**TUM DataTagger**](https://web.tum.de/en/researchdata/infrastructure-tools/)**:** An open-source tool designed to help you annotate and version your data collaboratively. It simplifies the process of adding descriptive metadata to large datasets before they are shared or archived.
+* [**eLabFTW**](https://www.ub.tum.de/en/eln)**:** The official Electronic Lab Notebook (ELN) for TUM researchers. It allows you to document experiments in a structured way, automatically capturing timestamps and linking datasets to specific experimental parameters.  
+* [**DataTagger**](https://www.ub.tum.de/en/datatagger)**:** An open-source tool designed to help you annotate and version your data collaboratively. It simplifies the process of adding descriptive metadata to large datasets before they are shared or archived.
 
 **Note:** Consistent metadata is what turns "raw data" into "scientific evidence." If you are unsure which standard to use for your metadata or what tools are best suited for your research needs, you can send us an email at [researchdata@tum.de](mailto:researchdata@tum.de).
