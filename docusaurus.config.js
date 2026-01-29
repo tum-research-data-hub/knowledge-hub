@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'TUM Data Knowledge Hub',
   tagline: 'Cultivating Research Integrity and Reproducible Science',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/tum-logo.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {

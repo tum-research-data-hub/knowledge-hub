@@ -35,7 +35,6 @@ To make metadata "Interoperable," researchers use **Schemas**—standardised set
 * **Domain-Specific Standards:** Fields like Biology or Physics often have complex requirements (e.g., the "Minimum Information" standards in genomics).  
   * 🧬 **See Detail:** [Metadata & Ontologies (Bioinformatics)](/domain-knowledge/bioinformatics/bio-metadata-ontologies)
 
-## 
 
 ## **4\. Best Practices & Management Tools**
 

@@ -63,7 +63,6 @@ Record temporal information crucial for examining trends, sequences, or rhythms.
 
 * **Example:** Timestamps (2025-01-03 10:15:00)
 
-##
 
 ## **2\. Specialised Data Types**
 
