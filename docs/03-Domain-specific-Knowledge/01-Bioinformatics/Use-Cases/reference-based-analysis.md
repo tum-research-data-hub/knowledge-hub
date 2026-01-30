@@ -213,7 +213,7 @@ After running the complete workflow, you should have:
 
 - **Local workstation** - Suitable for small genomes (bacteria) or pilot studies
 - **LRZ Linux Cluster** - Recommended for human genomes or multiple samples
-- **See:** [Infrastructure Guide](/general-knowledge/infrastructure)
+- **See:** [Infrastructure Guide](/docs/02-General-Knowledge/infrastructure)
 
 ## **Common Issues & Troubleshooting**
 
