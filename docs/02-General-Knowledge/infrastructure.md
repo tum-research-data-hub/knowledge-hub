@@ -1,5 +1,6 @@
 ---
 title: Computing Infrastructure
+slug: /general-knowledge/infrastructure
 ---
 
 # **Computing Infrastructure**
