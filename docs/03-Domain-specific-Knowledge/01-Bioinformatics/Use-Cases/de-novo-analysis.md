@@ -268,7 +268,7 @@ A successful de novo assembly produces:
 | Mammalian | 50x coverage | 64+ | 500+ GB | 3-7 days |
 
 :::tip Resource Recommendation
-For genomes >100 Mb, use the **LRZ Linux Cluster** high-memory nodes. See [Infrastructure Guide](/02-General-Knowledge/infrastructure).
+For genomes >100 Mb, use the **LRZ Linux Cluster** high-memory nodes. See [Infrastructure Guide](/general-knowledge/infrastructure).
 :::
 
 ## **Common Issues & Troubleshooting**
