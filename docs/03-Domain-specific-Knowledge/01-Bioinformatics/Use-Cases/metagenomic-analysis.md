@@ -350,7 +350,7 @@ A comprehensive metagenomic analysis produces:
 | Deep metagenomics | 200M+ pairs | 64+ | 256-512 GB | ~2 TB | 3-7 days |
 
 :::tip Resource Recommendation
-Metagenomic assembly is extremely resource-intensive. Use **LRZ AI Systems** or high-memory cluster nodes. See [Infrastructure Guide](/docs/02-General-Knowledge/infrastructure).
+Metagenomic assembly is extremely resource-intensive. Use **LRZ AI Systems** or high-memory cluster nodes. See [Infrastructure Guide](/02-General-Knowledge/infrastructure).
 :::
 
 ## **Common Issues & Troubleshooting**
