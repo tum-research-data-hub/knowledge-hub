@@ -73,7 +73,7 @@ Consider these key factors:
 * **< 1 TB:** Local workstation, LRZ Compute Cloud
 * **1-10 TB:** LRZ Linux Cluster storage
 * **> 10 TB:** Terrabyte, specialized storage solutions
-* **Long-term archiving:** Terrabyte, mediaTUM
+* **Long-term archiving:** Data Science Archive (LRZ), mediaTUM
 
 #### **3. Data Sensitivity**
 
@@ -110,3 +110,4 @@ For questions about which infrastructure is right for your project:
 ---
 
 **Note:** Infrastructure availability and access procedures may change. Always check the official websites for the most current information.
+
