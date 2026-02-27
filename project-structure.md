@@ -10,21 +10,21 @@
 
 know-hub-docu/  
 ├── 📂 docs/                     \# Documentation content folder  
-│   ├── 📂 01-About-the-Knowledge-Hub/  
+│   ├── 📂 01-about-the-knowledge-hub/  
 │   │   ├── \_category\_.json      \# Sets label to "About the Hub"  
 │   │   ├── index.md  
 │   │   └── organizational.md  
-│   ├── 📂 02-General-Knowledge/  
+│   ├── 📂 02-general-knowledge/  
 │   │   ├── \_category\_.json      \# Sets label to "General Knowledge"  
 │   │   ├── data-types.md  
 │   │   ├── repositories.md  
 │   │   └── ...  
-│   ├── 📂 03-Domain-Specific-Knowledge/  
+│   ├── 📂 03-domain-specific-knowledge/  
 │   │   ├── \_category\_.json      \# Sets label to "Domain Specific"  
 │   │   └── 📂 Bioinformatics-Biology/  
 │   │       ├── \_category\_.json  \# Sets label to "Bioinformatics & Biology"  
 │   │       └── ...  
-│   └── 📂 04-Use-Cases/  
+│   └── 📂 04-use-cases/  
 │       ├── \_category\_.json      \# Sets label to "Use Cases"  
 │       └── ...  
 ├── 📂 static/                   \# Static assets (images, logos)  
