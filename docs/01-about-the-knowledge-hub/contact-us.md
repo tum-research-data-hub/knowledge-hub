@@ -1,5 +1,6 @@
 ---
 title: Contact Us
+slug: /about-the-hub/contact-us
 ---
 
 # **Contact Us**

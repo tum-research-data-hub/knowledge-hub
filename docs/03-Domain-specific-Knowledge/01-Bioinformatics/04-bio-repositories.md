@@ -1,3 +1,10 @@
+---
+ title: Repositories 
+ slug: /domain-knowledge/bioinformatics/bio-repo
+---
+
+# **Bioinformatics Repositories**
+
 | Database | Description | Link |
 |---|---|---|
 | EMBL European Nucleotide Archive (ENA) | The European Nucleotide Archive (ENA) provides a comprehensive record of the world’s nucleotide sequencing information, covering raw sequencing data, sequence assembly information and functional annotation. | https://www.ebi.ac.uk/ena/browser/ |

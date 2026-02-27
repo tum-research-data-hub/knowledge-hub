@@ -1,6 +1,11 @@
 ---
-title: Repository collections
+title: Repository Collections
+slug: /general-knowledge/repo
 ---
+
+A **repository** is a structured digital platform for storing, documenting, preserving, and sharing research data or publications, ensuring they remain accessible, citable, and reusable over time.
+
+Researchers can use registry services to search for trusted repositories by discipline, data type, certification status, or funder requirements, helping them identify an appropriate place to deposit their data.
 
 | Resource | Description | Link |
 |---|---|---|

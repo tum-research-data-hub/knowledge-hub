@@ -1,10 +1,11 @@
 ---
 title: Metadata
+slug: /general-knowledge/metadata
 ---
 
 # **Metadata**
 
-Metadata is often defined as "data about data." It refers to the structured information used to describe a data point or a dataset, covering its structure, content, and unique features. For PhD students and postdocs, high-quality metadata is the key to ensuring your research remains findable and usable by both systems and other researchers (including your future self).
+Metadata is often defined as "data about data." It refers to the structured information used to describe a data point or a dataset, covering its structure, content, and unique features. High-quality metadata is the key to ensuring your research remains findable and usable by both systems and other researchers (including your future self).
 
 ## **1\. Why Metadata Matters**
 
@@ -42,7 +43,7 @@ Capturing metadata manually can be time-consuming. TUM provides and recommends s
 
 * **Start Early:** Don't wait until the end of your project. Document your data as you create it.  
 * **Use README files:** For simple projects, a well-structured README.txt file in your root directory acts as a manual for your metadata.  
-* [**eLabFTW**](https://www.ub.tum.de/en/eln)**:** The official Electronic Lab Notebook (ELN) for TUM researchers. It allows you to document experiments in a structured way, automatically capturing timestamps and linking datasets to specific experimental parameters.  
-* [**DataTagger**](https://www.ub.tum.de/en/datatagger)**:** An open-source tool designed to help you annotate and version your data collaboratively. It simplifies the process of adding descriptive metadata to large datasets before they are shared or archived.
+* [**TUM eLabFTW**](https://www.ub.tum.de/en/eln)**:** The official Electronic Lab Notebook (ELN) for TUM researchers. It allows you to document experiments in a structured way, automatically capturing timestamps and linking datasets to specific experimental parameters.  
+* [**TUM DataTagger**](https://www.ub.tum.de/en/datatagger)**:** An open-source tool designed to help you annotate and version your data collaboratively. It simplifies the process of adding descriptive metadata to datasets before they are shared or archived.
 
 **Note:** Consistent metadata is what turns "raw data" into "scientific evidence." If you are unsure which standard to use for your metadata or what tools are best suited for your research needs, you can send us an email at [researchdata@tum.de](mailto:researchdata@tum.de).

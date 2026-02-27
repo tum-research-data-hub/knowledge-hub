@@ -1,5 +1,6 @@
 ---
 title: Tools and Languages
+slug: /general-knowledge/tool
 ---
 
 # **Tools and Programming Languages**
@@ -15,7 +16,7 @@ Programming-based approaches are the 'gold standard' for reproducibility, as eve
 R is a language specifically designed for statistical computing and graphics.
 
 * **Best for:** Complex statistical modelling and publication-quality visualisations.  
-* **TUM Context:** Widely used in Bioinformatics and Social Sciences.  
+* **TUM Context:** Widely used in Statistics, Bioinformatics, Life Sciences and Social Sciences.  
 * **Data Visualisation with ggplot2:**  
   * The ggplot2 package is the industry standard for R visualisations.  
   * It is based on the **'Grammar of Graphics,'** which allows you to build plots layer by layer (data \+ aesthetics \+ geometric objects).  
