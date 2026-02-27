@@ -13,13 +13,13 @@ FASTA and FASTQ files are the foundational formats for next-generation sequencin
 
 ### **FASTA**
 
-A **FASTA** file can contain multiple nucleotide or amino acid sequences. Each entry starts with a header line beginning with the \> symbol, followed by a unique identifier and metadata (e.g., gene name, organism). The subsequent lines contain the actual sequence data.
+A **[FASTA](https://en.wikipedia.org/wiki/FASTA_format)**file can contain multiple nucleotide or amino acid sequences. Each entry starts with a header line beginning with the \> symbol, followed by a unique identifier and metadata (e.g., gene name, organism). The subsequent lines contain the actual sequence data.
 
 * **Note:** FASTA files typically do not contain information about the quality of the sequence.
 
 ### **FASTQ**
 
-A **FASTQ** file is an extension of the FASTA format that also stores corresponding quality scores. Each read entry is recorded in four lines:
+A **[FASTQ](https://en.wikipedia.org/wiki/FASTQ_format)** file is an extension of the FASTA format that also stores corresponding quality scores. Each read entry is recorded in four lines:
 
 1. Sequence identifier  
 2. Nucleotide sequence  
@@ -32,11 +32,11 @@ After sequencing, a major task is "mapping" or aligning these reads to a referen
 
 ### **SAM (Sequence Alignment Map)**
 
-The **Sequence Alignment Map (SAM)** format is generic text format for storing the alignments of sequencing reads against reference nucleotide sequences and is typically the output of read alignment algorithms, such as Bowtie2. Each file contains one header section and alignment section with the read sequence and quality scores such as the reference chromosome, genomic position, mapping quality, and a CIGAR string describing matches/insertions/deletions. The SAM format supports short and long reads (up to 128 Mbp) produced by different sequencing platforms.
+The **[Sequence Alignment Map (SAM)](https://en.wikipedia.org/wiki/SAM_(file_format)** format is generic text format for storing the alignments of sequencing reads against reference nucleotide sequences and is typically the output of read alignment algorithms, such as Bowtie2. Each file contains one header section and alignment section with the read sequence and quality scores such as the reference chromosome, genomic position, mapping quality, and a CIGAR string describing matches/insertions/deletions. The SAM format supports short and long reads (up to 128 Mbp) produced by different sequencing platforms.
 
 ### **BAM (Binary Alignment Map)**
 
-The **Binary Alignment Map (BAM)** format is a compressed, binary format of SAM and thus take up less storage space than SAM files (usually 30-50% smaller). Some special tools are needed in order to make sense of BAM, such as Samtools, Picard, and Integrative Genomics Viewer (IGV).
+The **[Binary Alignment Map (BAM)](https://en.wikipedia.org/wiki/BAM_(file_format)** format is a compressed, binary format of SAM and thus take up less storage space than SAM files (usually 30-50% smaller). Some special tools are needed in order to make sense of BAM, such as Samtools, Picard, and Integrative Genomics Viewer (IGV).
 
 The detailed format specification a the SAM/BAM formats can be found in the official web site: https://samtools.github.io/hts-specs/. 
 

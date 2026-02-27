@@ -43,7 +43,7 @@ The Technical University of Munich is home to world-leading research groups in b
 
 ### **Core Bioinformatics and Computational Biology**
 
-Should you find your bioinformatics group missing from the list, please [contact us](mailto:rdhub@mdsi.tum.de)!
+Should you find your bioinformatics group missing from the list, please [contact us](mailto:researchdata@tum.de)!
 
 #### **Computational Molecular Medicine**
 - **Professor:** Julien Gagneur
@@ -159,7 +159,7 @@ TUM researchers have access to:
 
 TUM offers comprehensive bioinformatics education:
 
-- **BSC & MSc Bioinformatics** - Joint program between TUM and LMU Munich
+- **BSc & MSc Bioinformatics** - Joint program between TUM and LMU Munich
 - **Integrated courses** - Available through various life science programs
 - **Workshops and seminars** - Hosted by MDSI and individual chairs
 
@@ -177,4 +177,4 @@ Many TUM bioinformatics groups welcome collaborations. If you have biological da
 
 ---
 
-**This list is continually updated.** If you know of additional bioinformatics or computational biology groups at TUM that should be included, please contact [rdhub@mdsi.tum.de](mailto:rdhub@mdsi.tum.de).
+**This list is continually updated.** If you know of additional bioinformatics or computational biology groups at TUM that should be included, please contact [researchdata@tum.de](mailto:researchdata@tum.de).

@@ -24,11 +24,11 @@ We recommend and support digital solutions tailored to the TUM environment:
 * [**eLabFTW**](https://www.ub.tum.de/en/eln)**:** The official electronic lab notebook (ELN) for structured and secure documentation.  
 * [**DataTagger**](https://www.ub.tum.de/en/datatagger)**:** Central open-source tool for collaborative data annotation, versioning, and sharing.  
 * [**mediaTUM**](https://mediatum.ub.tum.de/)**:** TUM’s institutional repository for publishing and archiving citable research data (DOIs).  
-* **Storage Solutions:** Tiered options for "hot data" and archiving via the [Leibniz Supercomputing Centre (LRZ)](https://www.lrz.de/).
+* [**Storage Solutions**](https://mediatum.ub.tum.de/doc/1747551/1747551.pdf)**:** TUM offers a range of storage solutions for research data - from cloud-based space for active (“hot”) data and collaborative work to large-scale archives for finished (“cold”) data. 
 
 ### **3\. Best Practice & Community Exchange**
 
-* **TUM Guidelines:** Adhering to the *TUM Guidelines for Handling Research Data* to ensure transparency and sustainability.  
+* **TUM Guidelines:** Adhering to the **[TUM Guidelines for Handling Research Data](https://web.tum.de/en/researchdata/tum-guidelines/)** to ensure transparency and sustainability.  
 * **Network & Events:** Join the **NFDI Round Table** or **Industry Expert Talks** to share experiences and tackle data challenges with fellow researchers.  
 * **Domain-Specific Support:** Tailored methodologies for specialised fields, particularly in data-intensive areas like Bioinformatics and Engineering.
 

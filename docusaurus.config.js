@@ -128,7 +128,8 @@ themes: [
           {
             title: 'Support',
             items: [
-              { label: 'MDSI', href: 'https://www.mdsi.tum.de/' },
+              { label: 'TUM Research Data Hub', href: 'https://web.tum.de/researchdata/hub/' },
+              { label: 'Munich Data Science Institute', href: 'https://www.mdsi.tum.de/' },
               { label: 'TUM University Library', href: 'https://www.ub.tum.de/' },
             ],
           },
