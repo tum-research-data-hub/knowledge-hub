@@ -1,0 +1,8 @@
+{
+  "label": "Use Cases",
+  "position": 9,
+  "link": {
+    "type": "generated-index",
+    "description": "Explore common medical and clinical data workflows. Each use case provides detailed explanations of the data flow, tools, and practical code examples."
+  }
+}
