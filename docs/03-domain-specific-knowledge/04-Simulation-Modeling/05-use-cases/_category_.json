@@ -3,6 +3,7 @@
   "position": 9,
   "link": {
     "type": "generated-index",
+    "slug": "/domain-knowledge/simulation-modeling/use-cases",
     "description": "Explore common simulation and modeling data workflows. Each use case provides detailed explanations of the data flow, tools, and practical code examples."
   }
 }
