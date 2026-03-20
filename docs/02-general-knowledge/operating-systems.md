@@ -2,6 +2,34 @@
 title: Operating systems
 slug: /general-knowledge/os
 ---
+# Operating systems
+An operating system is the collection of software that manages a computer's resources and acts as a layer between the firmware and application (i.e. user-facing) software.
+
+How you as a user interact with the computer greatly depends on which operating system is running.
+
+## Common operating systems
+
+| Name | Notes | Common usecases | Usage at TUM / LRZ |
+| ---- | ---- | ---- | ---- |
+| Linux | any operating system that uses the Linux kernel may refer to itself as "Linux", a popular one being "GNU/Linux" | servers, embedded / IoT devices, HPC clusters, personal computers | LRZ compute infrastructure |
+| Windows |  | servers, personal computers |  |
+| MacOS |  | personal computers |  |
+| Android | based on a modified version of the Linux kernel | phones, tablets, embedded / IoT devices |  |
+| iOS |  | phones, tablets |  |
+
+### Linux distributions
+A Linux distribution is an operating system that is built on top of the Linux kernel and includes a collection of components that shapes the user experience. These components might be a package manager, window manager, init system, network configuration software and further tools and utilities like office software.
+While there are [thousands of Linux distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions), only a few are widespread in certain domains.
+
+| Distribution | Notes | Common usecases | Usage at TUM / LRZ |
+| --- | --- | --- | --- |
+| Debian | slow release cycle, very stable | servers | webservers ? |
+| Ubuntu | derived from Debian | desktop computers, servers |  |
+| CentOS |  |  |  |
+| AlmaLinux |  |  |  |
+| SUSE |  |  |  |
+| Fedora |  |  |  |
+| Arch | rolling release cycle |  | desktop computers |
 
 ## Shells
 
