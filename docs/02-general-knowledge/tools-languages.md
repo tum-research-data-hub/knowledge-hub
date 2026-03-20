@@ -37,7 +37,7 @@ These are compiled languages used when performance is the highest priority.
 
 * **Best for:** Developing high-performance software, simulations, and compute-intensive algorithms that need to run on HPC clusters.  
 * **TUM Context:** Core to Engineering, Physics, and the development of new bioinformatics tools (like sequence aligners).  
-* **Note:** While harder to learn than Python, they offer significantly faster execution speeds for massive datasets.
+* **Note:** While harder to learn than Python, they offer significantly faster execution speeds for massive datasets. However, slower languages can still benefit from the speed of compiled C/C++ code via so-called *bindings*. Bindings allow you to make calls to compiled code from other languages such as Python or R. This is how Python libraries like numpy achieve their speed.
 
 ### **JavaScript**
 
