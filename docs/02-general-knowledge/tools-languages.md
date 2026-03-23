@@ -27,9 +27,16 @@ R is a language specifically designed for statistical computing and graphics.
 Python is a general-purpose language that has become the dominant tool for Machine Learning, Artificial Intelligence, and Data Engineering.
 
 * **Package Management with pip:**  
-  * pip stands for **'Pip Installs Packages'** (a recursive acronym). It is the standard package manager for Python.  
-  * **Best Practice:** Always use **Virtual Environments** (venv or conda) to keep your research project dependencies isolated.  
-* **Essential Libraries:** Pandas (data), Scikit-learn (ML), PyTorch (AI), and Matplotlib (viz).
+  * pip stands for **'Pip Installs Packages'** (a recursive acronym). It is the standard package manager for Python.
+  * [uv](https://docs.astral.sh/uv/) has established itself as the superior and vastly faster alternative to pip as a package installer, venv as a virtual environment manager and other tools such as pyenv or poetry as dependency managers
+  * **Best Practice:** Always use **Virtual Environments** (uv, venv or conda) to keep your research project dependencies isolated.
+* **Dependency management:**
+  * most code is dependent on other libraries / Python packages
+  * as libraries change, code that depends on these libraries might become incorrect over time. It is therefore essential to not only know on *which* libraries your code depends on, but also *what version* of these dependencies it assumes.
+  * the Python Foundation has developed an open standard to denote dependencies in a file called [`pyproject.toml`](https://packaging.python.org/en/latest/guides/writing-pyproject-toml/). It contains (alongside other metadata) a list of dependencies and their (usually minimal) version requirements
+  * `pyproject.toml` does not need to be handwritten. Tools such as uv manage it for you.
+  * a **lock file** is a file that contains the exact version numbers and checksums of all currently installed dependencies including all transient dependencies. Such a file is necessary in order to exactly reproduce a Python environment and should definitely be included in scientific analysis code. The lock file uv produces is called `uv.lock`.
+* **Essential Libraries:** Pandas (data), Polars (data, viz), Scikit-learn (ML), PyTorch (AI), and Matplotlib (viz).
 
 ### **C and C++**
 
