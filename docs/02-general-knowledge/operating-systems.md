@@ -23,13 +23,15 @@ While there are [thousands of Linux distributions](https://en.wikipedia.org/wiki
 
 | Distribution | Notes | Common usecases | Usage at TUM / LRZ |
 | --- | --- | --- | --- |
-| Debian | slow release cycle, very stable | servers | webservers ? |
-| Ubuntu | derived from Debian | desktop computers, servers |  |
-| CentOS |  |  |  |
-| AlmaLinux |  |  |  |
-| SUSE |  |  |  |
-| Fedora |  |  |  |
-| Arch | rolling release cycle |  | desktop computers |
+| Debian | slow release cycle, very stable | servers | webservers |
+| Ubuntu | derived from Debian, LTS releases every 2 years | desktop computers, servers |  |
+| CentOS | EOL since 2024; was RHEL-compatible and long the dominant server distro in academia | servers (legacy) |  |
+| Scientific Linux | EOL since 2021; developed at CERN and Fermilab; historically the standard OS at many research institutes and HPC clusters | servers (legacy), HPC (legacy) | replaced by AlmaLinux / Rocky Linux at LRZ |
+| AlmaLinux | community-maintained RHEL-compatible successor to CentOS | servers, HPC | LRZ compute nodes |
+| Rocky Linux | second major community successor to CentOS; popular alternative to AlmaLinux at HPC centers | servers, HPC |  |
+| SUSE / openSUSE | enterprise-focused | enterprise servers, HPC |  |
+| Fedora | cutting-edge, upstream testing ground for RHEL; ~6 month release cycle | desktop computers |  |
+| Arch | rolling release cycle, highly customizable, requires manual setup | desktop computers, power users |  |
 
 ## Shells
 
