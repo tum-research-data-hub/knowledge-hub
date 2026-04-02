@@ -35,3 +35,11 @@ Here we only list general purpose file formats for tabular data:
 | [NetCDF](https://www.unidata.ucar.edu/software/netcdf/) | `.nc` / `.nc4` | array-oriented format popular in climate science, meteorology, and oceanography; supports metadata and unlimited dimensions | python (netCDF4, xarray), MATLAB, R (ncdf4), C/C++, Fortran, Java |
 | [Zarr](https://zarr.dev/) | `.zarr` (directory) | chunked, compressed N-dimensional arrays; cloud-friendly (S3, GCS); can serve as an alternative to HDF5 for large-scale parallel I/O | python (zarr, xarray), Julia |
 | [NumPy binary](https://numpy.org/doc/stable/reference/generated/numpy.save.html) | `.npy` / `.npz` | simple format for serializing NumPy arrays; `.npz` bundles multiple arrays in a zip archive | python (numpy) |
+
+A **self-describing** file format embeds enough metadata within the file itself that the data can be understood without external documentation, including field names, data types, dimensions, and optionally units or descriptions. This is particularly important for long-term archiving and reproducibility, as the file remains interpretable independently of the software or context that produced it.
+
+Among the formats listed, HDF5 and NetCDF offer the richest self-description: both support arbitrary user-defined attributes at the file, group, and variable level, making it possible to embed units, coordinate systems, author information, and provenance directly alongside the data.
+Parquet is also fully self-describing with respect to schema (field names and types are stored in the file footer), though it has no built-in convention for semantic metadata like units.
+Arrow IPC similarly embeds the schema but leaves semantic metadata to the application.
+NumPy's `.npy` format only records the array's dtype and shape,  there are no field names or any semantic context.
+Zarr stores its metadata in external JSON sidecar files rather than inside the data files themselves.
