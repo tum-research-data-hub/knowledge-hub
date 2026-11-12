@@ -16,9 +16,9 @@ At the end of this page, you will find a decision guide to help you choose the r
 | **LRZ Linux Cluster** | HPC Cluster | TUM affiliation, application required | High-performance computing, parallel processing | LRZ DSS | [LRZ Linux Cluster](https://doku.lrz.de/linux-cluster-10746275.html) |
 | **LRZ Compute Cloud** | Virtual Machines | TUM affiliation, project application | Flexible computing environments, web services | LRZ DSS, object storage| [LRZ Compute Cloud](https://doku.lrz.de/compute-cloud-10746035.html) |
 | **LRZ AI Systems** | GPU Cluster | Application required, peer review | AI/ML training, deep learning | Specialized storage, LRZ DSS | [LRZ AI Systems](https://doku.lrz.de/ai-systems-11481865.html) |
-| **LRZ Quantum Computing** | Quantum Systems Cluster | Special application | Quantum algorithm research | LRZ DSS, Globus | [LRZ Quantum](https://www.lrz.de/wir/newsletter/2021-06/#quantum) |
-| **Terrabyte** | HPC Cluster | TUM account, DFL employee | Earth observational data science | LRZ DSS, Globus | [Terrabyte](https://www.lrz.de/services/compute/linux-cluster/terrabyte/) |
-| **EOSC** | Virtual Machines, Jupyter Notebooks | European research affiliation | Flexible computing environments | Federated storage | [EOSC Portal](https://eosc-portal.eu/) |
+| **LRZ Quantum Computing** | Quantum Systems Cluster | Special application | Quantum algorithm research | LRZ DSS, Globus | [LRZ Quantum](https://www.lrz.de/en/technologies/quantum-computing) |
+| **Terrabyte** | HPC Cluster | TUM account, DLR employee | Earth observational data science | LRZ DSS, Globus | [Terrabyte](https://www.lrz.de/services/compute/linux-cluster/terrabyte/) |
+| **EOSC** | Virtual Machines, Jupyter Notebooks | European research affiliation | Flexible computing environments | Federated storage | [EOSC EU Node](https://open-science-cloud.ec.europa.eu/) |
 | **Jupyter4NFDI** | Jupyter Notebooks | Affiliation with German University | Interactive data analysis | Integrated storage | [Jupyter4NFDI](https://jupyter.nfdi.de/) |
 | **NHR** | National HPC | Doctoral researchers can apply | Large-scale simulations | High-throughput storage | [NHR Alliance](https://www.nhr-verein.de/) |
 | **EuroHPC** | European HPC | Competitive application, calls open regularly | Extreme-scale computing | Parallel file systems | [EuroHPC JU](https://www.eurohpc-ju.europa.eu/index_en) |
