@@ -5,7 +5,7 @@ slug: /domain-knowledge/bioinformatics/introduction
 
 :::tip Quick Start by Role
 
-**PhD students & Postdocs** — Start with [Data Types](/domain-knowledge/bioinformatics/bio-data-types) and [Use Cases](/domain-knowledge/bioinformatics/use-cases/reference-based-analysis). For reproducibility, see [Workflow Managers](/general-knowledge/wms) and [Containers](/general-knowledge/containers).
+**PhD students & Postdocs** — Start with [Data Types](/domain-knowledge/bioinformatics/bio-data-types) and [Use Cases](/domain-knowledge/bioinformatics/use-cases/reference-based-analysis). For reproducibility, see [Workflow Managers](/general-knowledge/wms) and [Containers](/general-knowledge/containers). Most bioinformatics tools can be installed through Bioconda; see [Conda environments](/general-knowledge/tools/programming-languages#python).
 
 **PIs & Group Leaders** — Review [Metadata standards](/domain-knowledge/bioinformatics/bio-metadata-ontologies) for FAIR compliance and [Repositories](/domain-knowledge/bioinformatics/bio-repo) for data sharing requirements. See also [Data Management Plans](/general-knowledge/metadata#4-data-management-plans-dmps).
 
@@ -178,8 +178,8 @@ TUM offers comprehensive bioinformatics education:
 If you're new to bioinformatics at TUM:
 
 1. **Explore our resources** - Check out the [Data Types](/domain-knowledge/bioinformatics/bio-data-types) and [Use Cases](/domain-knowledge/bioinformatics/use-cases/reference-based-analysis)
-3. **Access infrastructure** - Apply for computing resources at [LRZ](https://www.lrz.de/)
-4. **Get support** - Contact [researchdata@tum.de](mailto:researchdata@tum.de) for data management guidance
+2. **Access infrastructure** - Apply for computing resources at [LRZ](https://www.lrz.de/)
+3. **Get support** - Contact [researchdata@tum.de](mailto:researchdata@tum.de) for data management guidance
 
 ## **Collaboration Opportunities**
 
@@ -187,4 +187,4 @@ Many TUM bioinformatics groups welcome collaborations. If you have biological da
 
 ---
 
-**This list is continually updated.** If you know of additional bioinformatics or computational biology groups at TUM that should be included, please contact [researchdata@tum.de](mailto:researchdata@tum.de).
+**This list is continually updated.** If you know of additional bioinformatics or computational biology groups at TUM that should be included, please contact [rdhub@mdsi.tum.de](mailto:rdhub@mdsi.tum.de).

@@ -4,16 +4,16 @@ slug: /domain-knowledge/bioinformatics/use-cases/transcriptomic-analysis-snakema
 ---
 
 # **Use Case 5: Transcriptomic Analysis Using Snakemake**
-In the previous section, we introduced a minimal workflow for transcriptome analysis using bash scripts. There are several issues with that approach that can be solved using a workflow management system, such as Snakemake.
+In [Use Case 4: Transcriptomic Analysis](/domain-knowledge/bioinformatics/use-cases/transcriptomic-analysis), we introduced a minimal workflow for transcriptome analysis using bash scripts. There are several issues with that approach that can be solved using a workflow management system, such as Snakemake.
 
 1. The bash script has no explicit dependency tracking. As a result, if trimming fails for one sample, the alignment step will still try to run and may silently produce incomplete results.
 2. The Bash script offers no built-in parallelization or scheduling awareness. You must manually manage threads and loops, and adapting the workflow to run on an HPC cluster or cloud platform usually requires rewriting some parts of the script.
-3. it is hard to change parameters and inputs in the bash script. For instance, what if we want to change the ref parameter to use GENCODE v44 instead of v34? In the bash script, we will have to rerun all steps starting with the first step, or we will have to create another script with the first steps commented out. However, Snakemake takes care of this issue and will only run the steps that are affected by this change. 
+3. It is hard to change parameters and inputs in the bash script. For instance, what if we want to use the GENCODE v44 annotation instead of v33? In the bash script, we either rerun everything, including the trimming that is not affected by the change, or we create another script with the unaffected steps commented out. Snakemake takes care of this and only reruns the steps that depend on the changed file (here: the STAR index, the alignments and the counting).
 
 
 ## **Snakemake Alignment Workflow Example**
 
-The same pipeline can be rewritten with Snakemake.
+The trimming, indexing, alignment and counting steps of the bash workflow (its steps 2 to 5) can be rewritten with Snakemake as shown below. The commands and parameters are the same; the annotation file `annotation.gtf` is given a concrete name here (`gencodev33.gtf`). The standalone FastQC and MultiQC reports (steps 1 and 6 of the bash workflow) are left out to keep the example short; they would be added as further rules.
 
 <details>
 
@@ -107,7 +107,7 @@ rule featurecounts:
     threads: 8
     shell:
         """
-        featureCounts -p -T {threads} \
+        featureCounts -p --countReadPairs -T {threads} \
             -a {input.gtf} \
             -o {output} \
             {input.bams}
