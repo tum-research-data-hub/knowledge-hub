@@ -29,7 +29,7 @@ Legal aspects (data protection, licensing) should be considered before any publi
 
 **Further information:**
 - [TUM Research Data Hub — Publish & Share Data](https://web.tum.de/en/researchdata/support-information/publish-share-data/)
-- [TUM Research Data Hub — Legal Aspects & Licenses](https://web.tum.de/en/researchdata/support-information/publish-share-data/legal-aspects-licensing/)
+- [TUM handout — Information on Licenses for Published Scientific Data and Software Programs (PDF)](https://mediatum.ub.tum.de/doc/1711141/1711141.pdf)
 
 ---
 

@@ -55,7 +55,7 @@ Not a container runtime itself, but a system for managing containers at scale. R
 | Build from definition | `apptainer build myimage.sif mydef.def` |
 
 **LRZ Documentation:**
-- [Apptainer on LRZ Systems](https://doku.lrz.de/apptainer-10746245.html)
+- [Apptainer on LRZ Systems](https://doku.lrz.de/apptainer-singularity-at-lrz-400558542.html)
 - [Enroot on LRZ Systems](https://doku.lrz.de/enroot-10746586.html)
 - [Container Best Practices](https://doku.lrz.de/container-best-practices-116098071.html)
 
