@@ -550,6 +550,7 @@ After differential expression analysis:
 - **Functional assays** - CRISPR knockouts, overexpression studies
 
 **Related Use Cases:**
+- [Transcriptomic Analysis Using Snakemake](/domain-knowledge/bioinformatics/use-cases/transcriptomic-analysis-snakemake) - The alignment and counting steps of this workflow, rewritten for a workflow manager
 - [Reference-Based Analysis](/domain-knowledge/bioinformatics/use-cases/reference-based-analysis) - Variant calling from RNA-seq
 - [De Novo Assembly](/domain-knowledge/bioinformatics/use-cases/de-novo-analysis) - For organisms without references
 

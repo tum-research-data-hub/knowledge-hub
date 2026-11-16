@@ -35,6 +35,8 @@ Once a genome has been assembled, an additional analysis step known as genome an
 - Similarity to known genes
 - External databases
 
+Tool choice, quality checks and common pitfalls of this step are covered in the [Gene & Genome Annotation](/domain-knowledge/bioinformatics/gene-annotation) guide.
+
 ## **Applications**
 
 De novo analysis enables the identification of:
