@@ -33,7 +33,11 @@ const config = {
   trailingSlash: false,  // Helps with URL consistency on GitHub Pages
 
   onBrokenLinks: 'throw', // Using 'throw' ensures that you never accidentally publish a broken website to your users
-  onBrokenMarkdownLinks: 'warn', // This specifically checks internal links inside your Markdown files
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn', // This specifically checks internal links inside your Markdown files
+    },
+  },
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you

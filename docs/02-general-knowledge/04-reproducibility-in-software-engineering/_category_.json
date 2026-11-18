@@ -1,0 +1,9 @@
+{
+  "label": "Reproducibility in Software Engineering",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "slug": "/general-knowledge/reproducibility-in-software-engineering",
+    "description": "The technical foundations of reproducible analyses: operating systems and shells, version control, containers and workflow management systems."
+  }
+}

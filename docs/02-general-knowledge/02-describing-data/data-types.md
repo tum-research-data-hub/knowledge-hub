@@ -1,6 +1,7 @@
 ---
 title: Data Types
 slug: /general-knowledge/data-types
+sidebar_position: 1
 ---
 
 # **Data Types**

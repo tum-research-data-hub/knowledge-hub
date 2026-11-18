@@ -1,0 +1,9 @@
+{
+  "label": "Publishing & Sharing",
+  "position": 6,
+  "link": {
+    "type": "generated-index",
+    "slug": "/general-knowledge/publishing-and-sharing",
+    "description": "Where and how to publish research data, and how to find repositories for your discipline."
+  }
+}

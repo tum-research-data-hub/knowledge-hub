@@ -16,6 +16,12 @@
   --ifm-color-primary-lightest: #1a85f0;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Sidebar: background shade per category level, darkest at the top level */
+  --kh-sidebar-level-1-bg: rgba(0, 0, 0, 0.09);
+  --kh-sidebar-level-2-bg: rgba(0, 0, 0, 0.05);
+  --kh-sidebar-level-3-bg: rgba(0, 0, 0, 0.025);
+  --kh-sidebar-hover-overlay: rgba(0, 0, 0, 0.04);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -28,4 +34,44 @@
   --ifm-color-primary-lighter: #5ca8ff;
   --ifm-color-primary-lightest: #85bfff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  --kh-sidebar-level-1-bg: rgba(255, 255, 255, 0.12);
+  --kh-sidebar-level-2-bg: rgba(255, 255, 255, 0.07);
+  --kh-sidebar-level-3-bg: rgba(255, 255, 255, 0.035);
+  --kh-sidebar-hover-overlay: rgba(255, 255, 255, 0.05);
+}
+
+/*
+ * Sidebar hierarchy: category headers get a background that becomes lighter
+ * with each level, so main chapters stand out from subcategories, and
+ * subcategories from the pages inside them. Pages keep the default style.
+ */
+.theme-doc-sidebar-item-category-level-1 > .menu__list-item-collapsible {
+  background-color: var(--kh-sidebar-level-1-bg);
+}
+
+.theme-doc-sidebar-item-category-level-1 > .menu__list-item-collapsible .menu__link {
+  font-weight: var(--ifm-font-weight-bold);
+}
+
+.theme-doc-sidebar-item-category-level-2 > .menu__list-item-collapsible {
+  background-color: var(--kh-sidebar-level-2-bg);
+}
+
+.theme-doc-sidebar-item-category-level-2 > .menu__list-item-collapsible .menu__link {
+  font-weight: var(--ifm-font-weight-semibold);
+}
+
+.theme-doc-sidebar-item-category-level-3 > .menu__list-item-collapsible {
+  background-color: var(--kh-sidebar-level-3-bg);
+}
+
+/* Keep a visible hover effect on top of the level shading */
+.theme-doc-sidebar-item-category > .menu__list-item-collapsible:hover {
+  background-image: linear-gradient(var(--kh-sidebar-hover-overlay), var(--kh-sidebar-hover-overlay));
+}
+
+/* Small gap between main chapters so each block reads as a unit */
+.theme-doc-sidebar-item-category-level-1:not(:first-child) {
+  margin-top: 0.35rem;
 }

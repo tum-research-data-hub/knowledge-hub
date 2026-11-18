@@ -1,8 +1,9 @@
 ---
-title: Operating systems
+title: Operating Systems & Shells
 slug: /general-knowledge/os
+sidebar_position: 1
 ---
-# Operating systems
+# Operating Systems & Shells
 An operating system is the collection of software that manages a computer's resources and acts as a layer between the firmware and application (i.e. user-facing) software.
 
 How you as a user interact with the computer greatly depends on which operating system is running.
