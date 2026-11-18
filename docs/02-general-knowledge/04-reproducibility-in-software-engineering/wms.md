@@ -1,6 +1,7 @@
 ---
 title: Workflow Management Systems
 slug: /general-knowledge/wms
+sidebar_position: 4
 ---
 
 # **Workflow Management Systems**

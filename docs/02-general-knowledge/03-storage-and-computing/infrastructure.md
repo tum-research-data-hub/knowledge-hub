@@ -1,6 +1,7 @@
 ---
 title: Computing Infrastructure
 slug: /general-knowledge/infrastructure
+sidebar_position: 2
 ---
 
 # **Computing Infrastructure**
@@ -19,7 +20,7 @@ At the end of this page, you will find a decision guide to help you choose the r
 | **LRZ Quantum Computing** | Quantum Systems Cluster | Special application | Quantum algorithm research | LRZ DSS, Globus | [LRZ Quantum](https://www.lrz.de/en/technologies/quantum-computing) |
 | **Terrabyte** | HPC Cluster | TUM account, DLR employee | Earth observational data science | LRZ DSS, Globus | [Terrabyte](https://www.lrz.de/services/compute/linux-cluster/terrabyte/) |
 | **EOSC** | Virtual Machines, Jupyter Notebooks | European research affiliation | Flexible computing environments | Federated storage | [EOSC EU Node](https://open-science-cloud.ec.europa.eu/) |
-| **Jupyter4NFDI** | Jupyter Notebooks | Affiliation with German University | Interactive data analysis | Integrated storage | [Jupyter4NFDI](https://jupyter.nfdi.de/) |
+| **Jupyter4NFDI** | Jupyter Notebooks | Affiliation with German University | Interactive data analysis | Integrated storage | [Jupyter4NFDI](https://nfdi-jupyter.de/) |
 | **NHR** | National HPC | Doctoral researchers can apply | Large-scale simulations | High-throughput storage | [NHR Alliance](https://www.nhr-verein.de/) |
 | **EuroHPC** | European HPC | Competitive application, calls open regularly | Extreme-scale computing | Parallel file systems | [EuroHPC JU](https://www.eurohpc-ju.europa.eu/index_en) |
 | **AWS** | Commercial Cloud | Credit card/budget | Scalable cloud computing | S3, EBS storage | [AWS](https://aws.amazon.com/) |

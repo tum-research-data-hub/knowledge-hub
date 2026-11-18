@@ -1,6 +1,7 @@
 ---
 title: Metadata
 slug: /general-knowledge/metadata
+sidebar_position: 3
 ---
 
 # **Metadata**

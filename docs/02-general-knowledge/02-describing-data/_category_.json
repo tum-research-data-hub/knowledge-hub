@@ -1,0 +1,9 @@
+{
+  "label": "Describing Data",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "slug": "/general-knowledge/describing-data",
+    "description": "Data types, file formats and metadata: how data is structured, stored in files and documented."
+  }
+}

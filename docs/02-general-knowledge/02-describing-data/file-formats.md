@@ -1,6 +1,7 @@
 ---
 title: File formats
 slug: /general-knowledge/file-formats
+sidebar_position: 2
 ---
 
 A file format specifies the way information is encoded in a file on disk. Depending on the type of data that are to be stored, different file formats are appropriate.

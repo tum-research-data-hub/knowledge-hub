@@ -1,6 +1,7 @@
 ---
 title: Git & Version Control
 slug: /general-knowledge/git
+sidebar_position: 2
 ---
 
 # **Git & Version Control**
@@ -86,4 +87,4 @@ This is not a tutorial — excellent resources exist:
 - [GitHub Skills](https://skills.github.com/) (interactive)
 - [LRZ GitLab Documentation](https://doku.lrz.de/display/PUBLIC/GitLab)
 
-For research data management, the key insight is: **Git tracks your analysis code; your data repository tracks your data.** Link them via DOIs and version tags for full reproducibility.
+For research data management, the key insight is: **Git tracks your analysis code; your data repository tracks your data.** Link them via DOIs and version tags for full reproducibility. How to turn a repository into a citable publication is described under [Publishing Research Software](/general-knowledge/publishing-research-software).
